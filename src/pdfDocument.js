@@ -54,13 +54,12 @@ const PdfDocument = () => {
         </View>
         <View>
           <View style={styles.itemHeader}>
-            <Text>Nome</Text>
-            <Text>Cpf</Text>
-            <Text>Idade</Text>
+            {Object.keys(dataFuncionario[0]).map((key) => (<Text key={key}>{key.toUpperCase()}</Text>)
+            )}
           </View>
           {dataFuncionario.map((func) => {
             return (
-              <View key={func.cpf} style={styles.itemBody}>
+              <View key={func.nome} style={styles.itemBody}>
                 <Text>{func.nome} </Text>
                 <Text>{func.cpf} </Text>
                 <Text>{func.idade} </Text>

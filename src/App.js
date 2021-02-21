@@ -29,7 +29,6 @@ function App () {
         </button>
         {isPreview && <PreviewReport />}
       </header>
-      <author>Glauber Marcelino</author>
     </div>
   )
 }
