@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Screens
+## Screens
 
 <img src="https://github.com/glaubermarcelino/reactReport/blob/main/screens/screen1.png"/>
 ## Available Scripts
