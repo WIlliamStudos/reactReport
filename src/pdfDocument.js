@@ -30,6 +30,10 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#000',
     textAlign: 'center'
+  },
+  logoReport: {
+    width: 54,
+    height: 48
   }
 })
 
@@ -50,6 +54,7 @@ const PdfDocument = () => {
     <Document>
       <Page size='A4' style={styles.page}>
         <View style={styles.section}>
+          <Image style={styles.logoReport} src='https://react-pdf.org/images/logo.png' allowDangerousPaths />
           <Text style={styles.titleReport}>Listagem de Funcionários</Text>
         </View>
         <View>
